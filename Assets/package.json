@@ -1,7 +1,7 @@
 {
     "name": "com.ebalzuweit.gamelib",
     "displayName": "gamelib",
-    "version": "0.1.0",
-    "unity": "2021.1",
+    "version": "0.2.0",
+    "unity": "2020.1",
     "description": "A collection of utility scripts."
 }
