@@ -4,15 +4,7 @@ A collection of utility scripts for Unity.
 
 ## Installation
 
-Add a dependency to `Packages/manifest.json`, like below:
-
-``` json
-{
-    "dependencies": {
-        "com.ebalzuweit.gamelib": "https://github.com/ebalzuweit/gamelib.git#upm"
-    }
-}
-```
+Follow the instructions (here)[https://docs.unity3d.com/Manual/upm-ui-giturl.html], using the URL `https://github.com/ebalzuweit/gamelib.git#upm`.
 
 ## Usage
 
