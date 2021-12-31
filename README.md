@@ -8,8 +8,22 @@ Follow the instructions [here](https://docs.unity3d.com/Manual/upm-ui-giturl.htm
 
 ## Usage
 
+`using com.ebalzuweit.gamelib;`
+
 ### GameEvent & GameEventListener
 
 ### Variable & VariableReference
 
 ### Utility Scripts
+
+- StaticInstance
+- Singleton
+- PersistentSingleton
+
+#### Grid Extensions
+
+- CellToWorldCenter
+
+#### Vector Extensions
+
+- ComponentAdd
