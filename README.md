@@ -20,6 +20,12 @@ Follow the instructions [here](https://docs.unity3d.com/Manual/upm-ui-giturl.htm
 - Singleton
 - PersistentSingleton
 
+#### Helpers
+
+- GetWait
+- IsOverUI
+- GetWorldPositionOfCanvasElement
+
 #### Grid Extensions
 
 - CellToWorldCenter
