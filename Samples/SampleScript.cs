@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace com.ebalzuweit.gamelib
@@ -8,6 +6,8 @@ namespace com.ebalzuweit.gamelib
     {
         [SerializeField]
         private IntReference sampleInt;
+        [SerializeField]
+        private Transform _sampleGoal;
 
         public void Increment()
         {
@@ -17,6 +17,13 @@ namespace com.ebalzuweit.gamelib
         public void Decrement()
         {
             sampleInt.Value--;
+        }
+
+        private void Update()
+        {
+            var localPosition = _sampleGoal.localPosition;
+            localPosition.y = Mathf.Sin(Time.time) * 2f;
+            _sampleGoal.localPosition = localPosition;
         }
     }
 }
