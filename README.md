@@ -12,15 +12,29 @@ Follow the instructions [here](https://docs.unity3d.com/Manual/upm-ui-giturl.htm
 
 ### GameEvent & GameEventListener
 
-### Variable & VariableReference
+### Observables
+
+Variable & VariableReference
+
+### Inverse Kinematics
+
+- `IkRoot`
+- `EndEffector`
+
+Uses the FABRIK algorithm.
 
 ### Utility Scripts
 
-- StaticInstance
-- Singleton
-- PersistentSingleton
+#### Persistence classes
 
-#### Helpers
+- `StaticInstance`
+	- Base class for a MonoBehaviour with a static instance variable.
+- `Singleton`
+  - StaticInstance that will destroy itself if another instance already exists.
+- `PersistentSingleton`
+  - Singleton with DontDestroyOnLoad
+
+#### Helper Functions
 
 - GetWait
 - IsOverUI
@@ -33,3 +47,15 @@ Follow the instructions [here](https://docs.unity3d.com/Manual/upm-ui-giturl.htm
 #### Vector Extensions
 
 - ComponentAdd
+
+#### Timer
+
+#### Note
+
+#### BillboardSprite
+
+#### Volume
+
+- Trigger
+- Spawn
+- Teleport
