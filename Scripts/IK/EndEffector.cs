@@ -53,6 +53,7 @@ namespace com.ebalzuweit.gamelib
             }
         }
 
+        // FABRIK implementation adapted from https://logicalbeat.jp/blog/6235/
         public void ResolveIk()
         {
             const int iterations = 10;
