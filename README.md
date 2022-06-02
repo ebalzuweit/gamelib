@@ -23,6 +23,12 @@ Variable & VariableReference
 
 Uses the FABRIK algorithm.
 
+### Chance _(beta)_
+
+#### Dice
+
+#### Loot Table
+
 ### Utility Scripts
 
 #### Persistence classes
@@ -44,6 +50,10 @@ Uses the FABRIK algorithm.
 
 - CellToWorldCenter
 
+#### Transform Extensions
+
+- DestroyChildren
+
 #### Vector Extensions
 
 - ComponentAdd
@@ -56,6 +66,6 @@ Uses the FABRIK algorithm.
 
 #### Volume
 
-- Trigger
 - Spawn
+- Trigger
 - Teleport
