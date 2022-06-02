@@ -2,6 +2,6 @@
 
 namespace com.ebalzuweit.gamelib
 {
-    [CreateAssetMenu(menuName = "Variable/String")]
+    [CreateAssetMenu(fileName = "New String", menuName = "gamelib/Variable/String")]
     public class StringVariable : Variable<string> { }
 }

@@ -2,6 +2,6 @@
 
 namespace com.ebalzuweit.gamelib
 {
-    [CreateAssetMenu(menuName = "Variable/Int")]
+    [CreateAssetMenu(fileName = "New Int", menuName = "gamelib/Variable/Int")]
     public class IntVariable : Variable<int> { }
 }

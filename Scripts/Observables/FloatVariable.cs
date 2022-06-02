@@ -2,6 +2,6 @@
 
 namespace com.ebalzuweit.gamelib
 {
-    [CreateAssetMenu(menuName = "Variable/Float")]
+    [CreateAssetMenu(fileName = "New Float", menuName = "gamelib/Variable/Float")]
     public class FloatVariable : Variable<float> { }
 }

@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace com.ebalzuweit.gamelib
 {
-    [CreateAssetMenu(menuName = "Game/Event")]
+    [CreateAssetMenu(fileName = "New Game Event", menuName = "gamelib/Game Event")]
     public class GameEvent : ScriptableObject
     {
         private List<GameEventListener> listeners = new List<GameEventListener>();
