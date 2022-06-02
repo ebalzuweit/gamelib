@@ -1,16 +1,19 @@
 using UnityEngine;
 
-public static class TransformExtensions
+namespace com.ebalzuweit.gamelib
 {
-    /// <summary>
-    /// Destroy all child objects of this transform.
-    /// </summary>
-    /// <param name="t"></param>
-    public static void DestroyChildren(this Transform t)
+    public static class TransformExtensions
     {
-        for (int i = t.childCount; i >= 0; i--)
+        /// <summary>
+        /// Destroy all child objects of this transform.
+        /// </summary>
+        /// <param name="t"></param>
+        public static void DestroyChildren(this Transform t)
         {
-            Object.Destroy(t.GetChild(i));
+            for (int i = t.childCount; i >= 0; i--)
+            {
+                Object.Destroy(t.GetChild(i));
+            }
         }
     }
 }
