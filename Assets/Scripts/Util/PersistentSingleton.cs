@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace com.ebalzuweit.gamelib
+namespace gamelib
 {
     /// <summary>
     /// A <see cref="Singleton{T}"/> that persists between Scenes.

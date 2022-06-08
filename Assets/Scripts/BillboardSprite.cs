@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace com.ebalzuweit.gamelib
+namespace gamelib
 {
     public class BillboardSprite : MonoBehaviour
     {

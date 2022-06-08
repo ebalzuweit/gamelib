@@ -1,6 +1,6 @@
 {
     "name": "ebalzuweit.gamelib",
-    "rootNamespace": "com.ebalzuweit.gamelib",
+    "rootNamespace": "gamelib",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
