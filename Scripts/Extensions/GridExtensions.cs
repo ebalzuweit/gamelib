@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace com.ebalzuweit.gamelib
+namespace gamelib
 {
     /// <summary>
     /// Extension methods for the Unity Grid class.

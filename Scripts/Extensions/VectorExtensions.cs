@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace com.ebalzuweit.gamelib
+namespace gamelib
 {
     /// <summary>
     /// Extension and static methods for Unity Vector classes.
