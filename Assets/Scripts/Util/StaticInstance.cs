@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace com.ebalzuweit.gamelib
+namespace gamelib
 {
     /// <summary>
     /// An abstract base class for <see cref="MonoBehaviour"/>s to hold an instance reference.

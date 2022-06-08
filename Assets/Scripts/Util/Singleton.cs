@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace com.ebalzuweit.gamelib
+namespace gamelib
 {
     /// <summary>
     /// A <see cref="StaticInstance{T}"/> that will destroy itself if another already exists.

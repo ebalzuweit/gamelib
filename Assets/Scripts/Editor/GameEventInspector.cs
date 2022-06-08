@@ -1,7 +1,7 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-namespace com.ebalzuweit.gamelib
+namespace gamelib
 {
     [CustomEditor(typeof(GameEvent))]
     public class GameEventInspector : Editor

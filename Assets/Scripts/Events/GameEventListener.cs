@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace com.ebalzuweit.gamelib
+namespace gamelib
 {
     public class GameEventListener : MonoBehaviour
     {

@@ -8,7 +8,7 @@ Follow the instructions [here](https://docs.unity3d.com/Manual/upm-ui-giturl.htm
 
 ## Usage
 
-`using com.ebalzuweit.gamelib;`
+`using gamelib;`
 
 ### GameEvent & GameEventListener
 

@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEditor;
 
-namespace com.ebalzuweit.gamelib
+namespace gamelib
 {
     [Serializable]
     public class IntReference : VariableReference<int>
